@@ -1,26 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Document</title>
 </head>
+
 <body>
-    <header>
-        <h1>Welcome to your Movie Trivia!</h1>
-    </header>
-    <section>
-        <button class="start-button">Start</button>
-        <div class= container>
-            <div class = questions>Questions</div>
-            <div class = answer-btns></div>
-                <button class = btn>Answer 1</button>
-                <button class = btn>Answer 2</button>
-                <button class = btn>Answer 3</button>
-                <button class = btn>Answer 4</button>
-        </div>
-    </section>
-    <script src="assets/js/script.js"></script>
+	<header id="header">
+		<h1>Welcome to your Movie Trivia!</h1>
+	</header>
+	<section id="timer-count">
+		<button id="start-button">Start</button>
+		<div class="container">
+			<div id="question">Questions</div>
+			<div class="answer-btns">
+				<button class="answer-btn" id="answer1">Answer 1</button>
+				<button class="answer-btn" id="answer2">Answer 2</button>
+				<button class="answer-btn" id="answer3">Answer 3</button>
+				<button class="answer-btn" id="answer4">Answer 4</button>
+			</div>
+		</div>
+	</section>
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+	<script src="./Assets/js/script.js"></script>
 </body>
+
 </html>
